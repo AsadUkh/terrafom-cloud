@@ -8,6 +8,9 @@ terraform {
   }
 }
 
+provider "aws" {
+  region     = "us-west-2"
+}
 # terraform {
 #   backend "remote" {
 #     hostname = "app.terraform.io"
